@@ -26,6 +26,11 @@ body {
 }    
 
 
+.layout {
+  display: flex;           
+  flex: 2;                 
+}
+
 /* ==========================================================================
    Headings
    ========================================================================== */
@@ -121,10 +126,9 @@ h1 {
 
 .footer {
     background-color: #f7f7f7;
-    padding: 1rem;
-    font-size: 0.9em;
-    border-top: 1px solid #000;
-    margin-top: 2rem;    
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #000;   
 }
 
 
